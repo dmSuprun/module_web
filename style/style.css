@@ -14,3 +14,24 @@ body{
     flex-wrap: wrap;
     width: 100%;
 }
+@media  (max-width: 900px){
+    .wrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap ;
+    }
+    .section__first_content_part,
+    .section__second__page__content_part,
+    .section__third__part {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .section__third__part {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+}
+

@@ -5,6 +5,7 @@
     justify-content: start;
     align-items: center;
     margin-bottom: var(--margin--btw--elements);
+    gap: 20px;
 
 }
 .add_margin__bottom{
@@ -81,8 +82,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+
 }
 .div__market__obj{
     width: 50%;
@@ -197,7 +199,6 @@
     transition: 0.3s;
 
 }
-
 
 
 
