@@ -1,0 +1,16 @@
+@import "base.css";
+@import "reset.css";
+@import "first_section.css";
+
+body{
+    width: 100%;
+    padding: 10px;
+    background-color: #C19A6B;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
